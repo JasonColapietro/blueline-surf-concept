@@ -83,7 +83,7 @@ a{color:inherit}
 
 /* built-by block (also inlined on the concept homepage) */
 .built{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:36px;padding:0 0 40px}
-.built h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:12px}
+.built h2,.built h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:12px}
 .built p{font-size:14px;color:rgba(255,255,255,.8);max-width:52ch;line-height:1.6}
 .built a{color:#fff;text-decoration:none}
 .built p a{text-decoration:underline;text-decoration-color:rgba(46,196,182,.6);text-underline-offset:3px}
