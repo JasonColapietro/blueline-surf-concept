@@ -251,6 +251,18 @@ footer{background:var(--navy);color:#fff;padding:72px 0 28px}
 @media (max-width:1000px){.fgrid{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.fgrid{grid-template-columns:1fr}}
 
+/* built-by block (shared with notes/notes.css) */
+.built{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:36px;padding:0 0 40px}
+.built h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:12px}
+.built p{font-size:14px;color:rgba(255,255,255,.8);max-width:52ch;line-height:1.6}
+.built a{color:#fff;text-decoration:none}
+.built p a{text-decoration:underline;text-decoration-color:rgba(46,196,182,.6);text-underline-offset:3px}
+.built a:hover{color:var(--turq)}
+.built-links{list-style:none;display:grid;gap:9px;font-size:14px;align-content:start}
+@media (max-width:900px){.built{grid-template-columns:1fr 1fr}.built-l{grid-column:1/-1}}
+@media (max-width:520px){.built{grid-template-columns:1fr}}
+.built{border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:26px}
+
 /* toast */
 .toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--navy);color:#fff;padding:14px 20px;border-radius:12px;display:flex;align-items:center;gap:12px;font-size:14px;box-shadow:0 20px 50px -20px rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:.3s;z-index:100;max-width:calc(100% - 40px)}
 .toast.show{opacity:1;transform:translate(-50%,0)}
@@ -270,7 +282,7 @@ footer{background:var(--navy);color:#fff;padding:72px 0 28px}
   <div class="bar"><div class="wrap"><span>Free sandbar delivery on rentals over $99 &nbsp;·&nbsp; Summer gear is here</span><span class="chip">Design concept</span></div></div>
   <nav><div class="wrap">
     <a class="brand" href="#top" aria-label="Blueline home"><span class="word">BLUELINE</span><span class="rule"></span><span class="sub">Surf &amp; Paddle Co.</span></a>
-    <div class="links"><a href="#shop">Shop</a><a href="#rentals">Rentals</a><a href="#lessons">Lessons</a><a href="#report">Surf report</a><a href="#visit">About</a></div>
+    <div class="links"><a href="#shop">Shop</a><a href="#rentals">Rentals</a><a href="#lessons">Lessons</a><a href="#report">Surf report</a><a href="#visit">About</a><a href="notes/">Notes</a></div>
     <div class="icons">
       <button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
       <button aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></button>
@@ -460,6 +472,24 @@ footer{background:var(--navy);color:#fff;padding:72px 0 28px}
 </svg>
 <span class="pin">997 N Alt A1A · Jupiter</span></div></div>
     </div>
+    <section class="built" aria-labelledby="built-h">
+      <div class="built-l">
+        <h4 id="built-h">Built by Suede AI in West Palm Beach, Florida</h4>
+        <p>This concept and its <a href="notes/">notes</a> were designed and built by <a href="https://suedeai.ai/founder">Jason Colapietro</a>, founder of <a href="https://suedeai.ai/">Suede AI</a>. Local businesses in Jupiter and Palm Beach County work with <a href="https://suedeai.agency/">Suede AI's West Palm Beach SEO and web studio</a>.</p>
+      </div>
+      <ul class="built-links">
+        <li><a href="https://suedeai.agency/">SEO, GEO &amp; web development</a></li>
+        <li><a href="https://suedeai.ai/founder">About Jason Colapietro</a></li>
+        <li><a href="https://jasoncolapietro.com/">jasoncolapietro.com</a></li>
+        <li><a href="https://jupitersocialfl.com/">Jupiter Social magazine</a></li>
+      </ul>
+      <ul class="built-links">
+        <li><a href="https://jasoncolapietro.github.io/palm-and-peak-roofing/">Palm &amp; Peak roofing concept</a></li>
+        <li><a href="https://optimize.suedeai.ai/">Suede Scan AI readiness</a></li>
+        <li><a href="https://agentix.suedeai.ai/">Agentix agent grader</a></li>
+        <li><a href="https://docs.suedeai.ai/">Suede developer docs</a></li>
+      </ul>
+    </section>
     <div class="fbot"><div class="big">BLUELINE</div><div class="note">Independent website design concept created for presentation purposes. Not affiliated with or endorsed by Blueline Surf &amp; Paddle Co. Product names, prices, reviews and staff are illustrative. Live conditions courtesy of Open-Meteo and NOAA CO-OPS.</div></div>
   </div>
 </footer>

@@ -1,0 +1,16 @@
+# Blueline Surf & Paddle Co. website concept (by Suede AI)
+
+> Independent, uncommissioned website design concept for a Jupiter, Florida surf and paddle shop, designed and built by Jason Colapietro, founder and CEO of Suede AI in West Palm Beach, Florida. Not affiliated with or endorsed by Blueline Surf & Paddle Co. Products, prices, ratings, reviews and staff on the concept homepage are illustrative placeholders, so the homepage is not indexed. The notes below are original articles by Suede AI.
+
+## Notes
+- [Case study: a Jupiter surf and paddle shop website concept by Suede AI](https://jasoncolapietro.github.io/blueline-surf-concept/notes/jupiter-surf-shop-website-case-study/): how the conditions-first concept was designed (Open-Meteo marine data, NOAA CO-OPS station 8722670 tides) and what a real build would add.
+- [Surf report, rentals and lessons: the pages a coastal Florida shop actually needs](https://jasoncolapietro.github.io/blueline-surf-concept/notes/surf-report-rentals-lessons-pages/): a one-page-one-question plan for shops in Jupiter and Palm Beach County, written for search and AI answers.
+- [How Jason Colapietro approaches small-business web development in Jupiter and Palm Beach County](https://jasoncolapietro.github.io/blueline-surf-concept/notes/small-business-web-development-jupiter/): working method, engineering habits and proof-linked claims.
+
+## About the builder
+- [Jason Colapietro, founder page](https://suedeai.ai/founder): canonical bio.
+- [Suede AI](https://suedeai.ai/): agentic platform company founded in 2024 in West Palm Beach, Florida.
+- [Suede AI West Palm Beach SEO, GEO and web practice](https://suedeai.agency/): local service line for Palm Beach County businesses.
+- [Evidence page](https://seo.suedeai.ai/evidence): proof for each cited accomplishment.
+- [jasoncolapietro.com](https://jasoncolapietro.com/)
+- [Jupiter Social](https://jupitersocialfl.com/): Jupiter, Florida local magazine published with Suede AI.
